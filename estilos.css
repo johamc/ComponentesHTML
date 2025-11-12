@@ -1,0 +1,56 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 40px;
+}
+
+#titulo {
+  text-align: center;
+  color: rgb(34, 62, 139);
+}
+
+/* --- contenedor principal --- */
+.contenedor {
+  display: flex;              /* 🔥 Pone las tarjetas en una fila */
+  justify-content: center;    /* Centra horizontalmente */
+  align-items: flex-start;    /* Alinea arriba */
+  gap: 30px;                  /* Espacio entre tarjetas */
+  flex-wrap: wrap;            /* Por si la pantalla es pequeña */
+  margin-top: 30px;
+}
+
+/* --- cada tarjeta --- */
+.tarjeta {
+  display: flex;
+  flex-direction: column;     /* Imagen arriba, botón abajo */
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 300px;
+}
+
+/* --- imagen --- */
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* --- botón --- */
+button {
+  background-color: #c8a2c8;
+  color: #0e0d0d;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b285b2;
+}
