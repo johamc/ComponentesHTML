@@ -12,23 +12,30 @@
       <h1 id="titulo">Encuesta de Intereses</h1>
     </header>
 
-    <!-- 🔥 Aquí está el contenedor de las 3 tarjetas -->
+    <!-- Contenedor de tarjetas -->
     <section class="contenedor">
       <div class="tarjeta">
         <img src="base-de-datos-min-e1523470739502.jpg" />
-        <button type="button" class="vote">Vote</button>
+        <button type="button" onclick="votar('bd')">Vote</button>
+        <p>Votos: <span id="votos-bd">0</span></p>
       </div>
 
       <div class="tarjeta">
         <img src="concepto-de-programacion-de-navegacion-de-tecnologia-de-diseno-web.jpg" />
-        <button type="button" class="vote">Vote</button>
+        <button type="button" onclick="votar('web')">Vote</button>
+        <p>Votos: <span id="votos-web">0</span></p>
       </div>
 
       <div class="tarjeta">
         <img src="el_remozado_javascript.imagen-1.jpg.webp" />
-        <button type="button" class="vote">Vote</button>
+        <button type="button" onclick="votar('js')">Vote</button>
+        <p>Votos: <span id="votos-js">0</span></p>
       </div>
     </section>
   </main>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
 </body>
 </html>
+

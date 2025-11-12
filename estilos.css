@@ -41,8 +41,8 @@ body {
 
 /* --- botón --- */
 button {
-  background-color: #c8a2c8;
-  color: #0e0d0d;
+  background-color: #3c3ff1;
+  color: #f8f3f3;
   font-size: 18px;
   padding: 10px 20px;
   border: none;
@@ -52,5 +52,12 @@ button {
 }
 
 button:hover {
-  background-color: #b285b2;
+  background-color: #8589b2;
+}
+
+.tarjeta p {
+  font-size: 20px;
+  color: #333;
+  margin-top: 8px;
+  text-align: center;
 }
